@@ -13,32 +13,39 @@ A full-stack e-commerce application demonstrating Java/Spring backend developmen
 - Docker Compose based setup
 
 ## Tech Stack
-- Java, Spring Boot, Spring REST, Spring Data JPA
-- React, JavaScript
-- MySQL, Redis
+- Java
+- Spring Boot
+- Spring REST
+- Spring Data JPA
+- React
+- MySQL
+- Redis
 - Docker Compose
-- Stripe API, Google OAuth 2.0
+- Stripe API
+- Google OAuth 2.0
 - Git & GitHub
 
 ## Architecture
-The project is organized around UI, authentication, common data, payment and search-suggestion services.
+The project is organized around UI, authentication, common product/order data, payment and search-suggestion services.
 
-## Run
-Configure the required environment variables, then:
+## Getting Started
+
+Configure the required environment variables using the provided environment template, then run:
 
 ```bash
 ./start-all.sh
 ```
 
-Stop services with:
+Stop the services with:
 
 ```bash
 ./stop-all.sh
 ```
 
-> Keep credentials, API keys and OAuth secrets out of source control.
+> Never commit API keys, passwords, OAuth credentials or other secrets to source control.
 
 ## Developer
+
 **Parvej Alam** — Java Backend Developer | Spring Boot | REST APIs | SQL | DSA
 
 B.Tech — Computer Science & Engineering, Integral University | CGPA: 8.4
